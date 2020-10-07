@@ -1,4 +1,4 @@
-package reversi;
+//package reversi; remove the comment when running with eclipse
 
 import java.awt.EventQueue;
 
