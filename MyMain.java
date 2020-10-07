@@ -1,4 +1,4 @@
-package reversi;
+//package reversi;
 
 import java.awt.EventQueue;
 
