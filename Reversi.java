@@ -1,4 +1,4 @@
-package reversi;
+//package reversi;  un comment this when running with eclipse
 
 import java.awt.Color;
 import java.awt.Container;
@@ -193,7 +193,7 @@ public class Reversi extends JFrame implements ActionListener{
 			}
 		}
 		
-		//recherche de la position du bonton cliqué dans la grille
+		//recherche de la position du bonton cliquÃ© dans la grille
 		for(int i = 0; i < 8; i++){
 			for(int j = 0; j < 8; j++){
 				if(b.equals(button[i][j])){
@@ -245,7 +245,7 @@ public class Reversi extends JFrame implements ActionListener{
 	
 	
 	/**
-	 * écrit le nom du joeur qui doit jouer
+	 * Ã©crit le nom du joeur qui doit jouer
 	 * 
 	 */
 	public void ActualiseNonjoueur(int turn){
@@ -345,12 +345,12 @@ public class Reversi extends JFrame implements ActionListener{
 	}
 	
 	/**
-	 * Cette fonction est executé avant de donner la main a un joueur
+	 * Cette fonction est executÃ© avant de donner la main a un joueur
 	 * 
-	 * Elle permet de savoir si le joueur à reellement la possibilité de 
+	 * Elle permet de savoir si le joueur Ã  reellement la possibilitÃ© de 
 	 * joueur dans la configuration actuelle du jeu.
 	 * 
-	 * si ce n'est pas le cas la main passe à son adversaire.
+	 * si ce n'est pas le cas la main passe Ã  son adversaire.
 	 * 
 	 * 
 	 */
@@ -558,7 +558,7 @@ public class Reversi extends JFrame implements ActionListener{
 		
 		boolean testTranfo = false;//pour voir si il y a eu une transformation
 		
-		if(turn == 0 || turn == 1){//noir ou blanc. Ce if est à supprimer
+		if(turn == 0 || turn == 1){//noir ou blanc. Ce if est Ã  supprimer
 		
 			//haut
 			/**
